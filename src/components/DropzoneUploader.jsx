@@ -10,11 +10,11 @@ const DropzoneUploader = ({ onDrop }) => {
   return (
     <div
       {...getRootProps()}
-      className="border-2 border-dashed border-gray-600 p-4 mb-8 text-center cursor-pointer"
+      className="border-2 border-dashed border-blue-400 p-6 mb-8 rounded-xl text-center cursor-pointer transition-shadow hover:shadow-xl hover:bg-blue-50"
     >
       <input {...getInputProps()} />
-      <p className="text-gray-700">
-        Drag & drop a logo here, or click to select a file
+      <p className="text-blue-500 font-medium">
+        Drag & drop a logo here, or <span className="underline">click</span> to select a file
       </p>
     </div>
   );

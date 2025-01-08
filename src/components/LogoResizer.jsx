@@ -1,13 +1,7 @@
 import React from 'react';
 import { Rnd } from 'react-rnd';
 
-const LogoResizer = ({
-  logo,
-  logoPosition,
-  logoSize,
-  setLogoPosition,
-  setLogoSize,
-}) => {
+const LogoResizer = ({ logo, logoPosition, logoSize, setLogoPosition, setLogoSize }) => {
   return (
     logo && (
       <Rnd
